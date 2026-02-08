@@ -9,7 +9,7 @@
 
 ## Abstract
 
-This repository contains the official implementation of the study **"Commuting flow prediction using OpenStreetMap data."** We propose a method to broaden the utility of state-of-the-art commuting flow prediction models by using globally available OpenStreetMap (OSM) data. While existing high-performing models often rely on location-specific proprietary datasets (limiting transferability), this approach leverages building types—specifically **residential** and **non-residential** classifications—derived from OSM to predict commuting flows. Our experiments demonstrate that models using these OSM-derived features achieve prediction accuracy comparable to those using region-specific data, while enabling application in data-poor regions through transfer learning.
+This repository contains the official implementation of the study **"Commuting flow prediction using OpenStreetMap data."** We propose a method to broaden the utility of state-of-the-art commuting flow prediction models by using globally available OpenStreetMap (OSM) data. While existing high-performing models often rely on location-specific proprietary datasets, limiting transferability, this approach leverages building types—specifically **residential** and **non-residential** classifications—derived from OSM to predict commuting flows. Our experiments demonstrate that models using these OSM-derived features achieve prediction accuracy comparable to those using region-specific data, while enabling application in data-poor regions through transfer learning.
 
 ---
 
