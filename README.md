@@ -34,10 +34,10 @@ The pipeline begins by processing OSM data to extract building footprints.
 - **Building Classification:** A machine learning approach is used to classify OSM building footprints into **Residential** and **Non-residential** types based on their geometric and topological features.
 
 - **Feature Generation:** We derive nine specific input features for flow prediction:
-  * Count, density, and area of residential buildings
-  * Count, density, and area of non-residential buildings
-  * Region population and population density
-  * Distance between census tracts calculated via Open Source Routing Machine (OSRM)
+  * Count, density, and area of residential buildings (3 features)
+  * Count, density, and area of non-residential buildings (3 features)
+  * Region population and population density (2 features)
+  * Distance between census tracts (1 feature) calculated via Open Source Routing Machine (OSRM)
   
 ---
 
